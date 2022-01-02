@@ -7,7 +7,7 @@
  * @Author: pengfei.xiu
  * @Date: 2022-01-02 12:56:41
  * @LastEditors: pengfei.xiu
- * @LastEditTime: 2022-01-02 15:37:17
+ * @LastEditTime: 2022-01-02 15:54:57
  */
 
 import { typeOf } from '../lib/typeof';

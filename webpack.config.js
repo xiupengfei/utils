@@ -4,7 +4,7 @@
  * @Author: pengfei.xiu
  * @Date: 2021-11-01 14:27:27
  * @LastEditors: pengfei.xiu
- * @LastEditTime: 2022-01-02 15:35:15
+ * @LastEditTime: 2022-01-02 15:56:14
  */
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -12,7 +12,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './index.ts',
   mode: process.env.NODE_ENV, //"production",
   target: process.env.NODE_ENV === 'development' ? 'web' : 'browserslist',
   output: {
