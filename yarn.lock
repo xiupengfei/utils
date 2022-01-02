@@ -907,6 +907,18 @@
   resolved "https://registry.npmmirror.com/@webpack-cli/serve/download/@webpack-cli/serve-1.6.0.tgz"
   integrity "sha1-LCdaoFyJXszrv8NM+yI8bovVkaI= sha512-ZkVeqEmRpBV2GHvjjUZqEai2PpUbuq8Bqd//vEYsp63J8WyexI8ppCqVS3Zs0QADf6aWuPdU+0XsPI647PVlQA=="
 
+"@xiupengfei/utils@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npmmirror.com/@xiupengfei/utils/download/@xiupengfei/utils-0.0.2.tgz#9a3c2befedec400b2dd32f53d426cac80c777ca0"
+  integrity sha512-jidGOtXyalfiZeFOAFD6XERj8on4ERTsNJ5lOc0yrzYD7gtIzJOOz96AbjSgHyMOtDetNi6u6WjRU69GkUARQQ==
+
+"@xiupengfei/utils@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.npmmirror.com/@xiupengfei/utils/download/@xiupengfei/utils-0.0.4.tgz#e90354ac11f9b9a90084dc94b43e15bf6cd7a217"
+  integrity sha512-FvnM/nUsL0avFlrebtMCpJoN463ilTDxx7hTek0ggN4Q+Y7a0ZFBGuZODZaBzcyPdvgAzOwymNGn4smjD3i4Ww==
+  dependencies:
+    "@xiupengfei/utils" "^0.0.2"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.nlark.com/@xtuc/ieee754/download/@xtuc/ieee754-1.2.0.tgz"

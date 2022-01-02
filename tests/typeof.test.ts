@@ -7,10 +7,10 @@
  * @Author: pengfei.xiu
  * @Date: 2022-01-02 12:56:41
  * @LastEditors: pengfei.xiu
- * @LastEditTime: 2022-01-02 14:20:50
+ * @LastEditTime: 2022-01-02 15:37:17
  */
 
-import { typeOf } from '..';
+import { typeOf } from '../lib/typeof';
 
 test('undefined is undefined', () => {
   expect(typeOf(void 0)).toBe('undefined');
