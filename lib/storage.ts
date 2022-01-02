@@ -4,13 +4,13 @@
  * @Author: pengfei.xiu
  * @Date: 2021-12-20 11:56:51
  * @LastEditors: pengfei.xiu
- * @LastEditTime: 2022-01-02 13:59:06
+ * @LastEditTime: 2022-01-02 15:03:13
  */
 
 // 默认缓存期限为7天
 const DEFAULT_CACHE_TIME = 60 * 60 * 24 * 7;
 
-class Storage {
+export class Storage {
   private storage: globalThis.Storage;
   private prefixKey?: string;
   constructor(storage: globalThis.Storage, prefixKey: string = '') {
@@ -129,5 +129,3 @@ class Storage {
  * @param {Object} [storage=localStorage] - sessionStorage | localStorage
  */
 export const storage = new Storage(localStorage);
-
-export default Storage;

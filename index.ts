@@ -4,10 +4,10 @@
  * @Author: pengfei.xiu
  * @Date: 2021-11-01 14:13:00
  * @LastEditors: pengfei.xiu
- * @LastEditTime: 2022-01-02 14:20:22
+ * @LastEditTime: 2022-01-02 15:03:43
  */
-export * from './lib/date';
-export * from './lib/storage';
-export * from './lib/typeof';
-export * from './lib/uuid';
-export * from './lib/validate';
+export { parseTime } from './lib/date';
+export { storage, Storage } from './lib/storage';
+export { typeOf } from './lib/typeof';
+export { uuid, guid } from './lib/uuid';
+export { isMobile, isNumber } from './lib/validate';
