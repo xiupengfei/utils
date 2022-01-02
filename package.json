@@ -2,6 +2,10 @@
   "name": "@xpf/utils",
   "version": "0.0.1",
   "description": "常用的工具函数封装",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiupengfei/utils"
+  },
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
